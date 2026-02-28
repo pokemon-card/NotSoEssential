@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Pseudo
 @SuppressWarnings("UnresolvedMixinReference")
-@Mixin(targets = "gg.essential.gui.common.MenuButton", remap = false)
+@Mixin(targets = "gg.essential.gui.common.MenuButton", remap = true)
 public class MenuButtonMixin
 {
 
