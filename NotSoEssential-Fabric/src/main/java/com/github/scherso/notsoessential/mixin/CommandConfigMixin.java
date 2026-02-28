@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Pseudo
 @SuppressWarnings("UnresolvedMixinReference")
-@Mixin(targets = "gg.essential.commands.impl.CommandConfig", remap = false)
+@Mixin(targets = "gg.essential.commands.impl.CommandConfig", remap = true)
 public class CommandConfigMixin
 {
 
