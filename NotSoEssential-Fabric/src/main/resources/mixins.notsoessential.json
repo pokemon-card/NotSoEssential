@@ -7,7 +7,6 @@
         "ConnectionManagerMixin",
         "ConnectionMixin",
         "EssentialAPIMixin",
-        "EssentialConfigMixin",
         "EssentialModelRendererMixin",
         "EssentialMultiplayerGuiMixin",
         "EssentialSetupPreLaunchMixin",
