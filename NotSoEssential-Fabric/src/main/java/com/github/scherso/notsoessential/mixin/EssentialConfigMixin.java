@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Pseudo
 @SuppressWarnings("UnresolvedMixinReference")
-@Mixin(targets = "gg.essential.config.EssentialConfig", remap = false)
+@Mixin(targets = "gg.essential.config.EssentialConfig", remap = true)
 public class EssentialConfigMixin
 {
 
